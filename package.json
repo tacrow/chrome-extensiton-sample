@@ -1,0 +1,23 @@
+{
+  "name": "chrome-extensiton-sample",
+  "version": "1.0.0",
+  "description": "chrome extensiton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tacrow/chrome-extensiton-sample.git"
+  },
+  "keywords": [
+    "chrome",
+    "extensiton"
+  ],
+  "author": "tacrow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tacrow/chrome-extensiton-sample/issues"
+  },
+  "homepage": "https://github.com/tacrow/chrome-extensiton-sample#readme"
+}
