@@ -1,4 +1,7 @@
+"use strict";
+
+const el = document.getElementsByTagName('body');
+
 chrome.runtime.onMessage.addListener(function(msg) {
-console.log('msg.opacity = ' + msg.opacity);
-  $('body').css("opacity", msg.opacity);
+  el[0].style.opacity = msg.opacity;
 });
